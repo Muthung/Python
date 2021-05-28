@@ -1,3 +1,10 @@
-# trials
+# Trials
 
- Here am creating python programs, each project has a different branch but all of them are intergrated to run together
+ Here am creating python programs,
+ 
+ > Invoice-Generator
+ > Password-Generator
+ > Number-Guess
+ > Body-Mass-Index
+ > QR Code
+ > Rock, Paper and Scissors
