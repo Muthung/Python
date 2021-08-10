@@ -8,3 +8,4 @@
     Body-Mass-Index
     QR Code
     Rock, Paper and Scissors
+    Phone-Info
