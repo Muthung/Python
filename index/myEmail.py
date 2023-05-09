@@ -37,8 +37,8 @@ while default_email:
     if Q_Quiz == "no":
         default_email = False
     elif Q_Quiz == "yes":
-        the_dict =my_emails.keys()
-        print(the_dict)
+        Emails =my_emails.keys()
+        print(Emails)
         quit()
     
     # Adding is complte
