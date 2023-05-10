@@ -8,13 +8,14 @@ I have a have .py programs categorized based on environment of study.
             Though pip I have installed and used different packages.
             Dependancies to install :
                                 
-                                 ~ whois
-                                 ~ pyfiglet
+                                 ~ os
+                                 ~ random
                                  ~ pyqrcode
-                                 ~ phonenumbers
-                                 ~ xml
-                                 ~ tkinter
-                                 ~ msvcrt
+                                 ~ argparse
+                                 ~ time
+                                 ~ dns.revolver
+                                 ~ json
+                                 ~ socket
             
             Do you know Menu Driven Program?.
 
@@ -23,18 +24,17 @@ I have a have .py programs categorized based on environment of study.
             I've used functions to illustrate Menu Driven Program, After executing. The compiler will display the list of menu options. The user has to choose the option and enter it.
             The compiler will compare the input entered by the user and then call the function.
 
-            Choose Exit to Quit/ Quit to Exit 
+            Choose 10 to Quit.
    
    auditor.py
              
              g
 
  Here am creating python programs :
- 
-    Invoice-Generator
-    Password-Generator
-    Number-Guess
+
     Body-Mass-Index
-    QR Code
     Rock, Paper and Scissors
-    Phone-Info
+    Web Srapper
+    Port Scanner
+    Network sniffer
+    Dns lookup tool
