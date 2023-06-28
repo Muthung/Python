@@ -159,7 +159,7 @@ Here is a brief documentation of each program. A detailed explaination of each.
                             appear as if the scan is originating from a different IP address.
                             This can help obfuscate the actual source of the scan.
                                        
-        ## Advanced security systems and network administrators with proper monitoring tools can identify and
+Advanced security systems and network administrators with proper monitoring tools can identify and
            block port scanning activities.
            
 
