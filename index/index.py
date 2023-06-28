@@ -7,6 +7,7 @@ import requests
 import json
 import random
 import os
+import socket
 
 ## This is a program for displaying  Body Mass Index
 ## upon User input of Height and Weight
@@ -70,7 +71,7 @@ def RoPaSc():
             if comp=="Scissors":
                 print("\n !>> Sad Mandem. You Lose!", comp, "cuts", player)
             else:
-                print("\\n >>> Congrats Bruv. You Win!", player, "covers", comp)
+                print("\\n >>> Congrats Bruv. You Win!", player, "covers", com)
         elif player=="Scissors":
             if comp=="Rock":
                 print("\n !>> Sad Mandem. You Lose!", comp, "smashes", player)
@@ -131,6 +132,12 @@ def Webscrapper():
         json.dumps(data, outfile, indent=4)
         print(f"JSON output saved to {default_path}")
 
+## Port Scanner
+## I have used 'socket module'
+
+def port_scanner():
+
+
 
 while True:
     print("\n --------------------------"+
@@ -140,7 +147,8 @@ while True:
     print("\n 1. Body Mass Index.")
     print(" 2. Rock, Paper, Scissors.")
     print(" 3. Web Scrapper.")
-    print(" 4. Quit.")
+    print(" 4. port_scanner")
+    print(" 5. quit")
     choice=int(input("Enter a number (1-10): "))
     
     if choice==1:
@@ -153,6 +161,9 @@ while True:
         Webscrapper()
         
     elif choice==4:
+        port_scanner()
+
+    elif choice==5:
         break
     
     else:
