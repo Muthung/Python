@@ -1,5 +1,5 @@
-# TITLE:  Clinton Python Projects.
-# AUTHOR: Clinton Muthungu Ndegwa.
+## TITLE:  Clinton Python Projects.
+### AUTHOR: Clinton Muthungu Ndegwa.
 
 
 Hello, Welcome to my space, Am showcasing my personnal python-trials.
@@ -7,7 +7,7 @@ I have used simple, medium and complex programs to sharpen my Python knowledge b
 
 I have a index.py programs categorized based on environment of study.
 
-# index.py.
+### index.py.
 
     Though pip I have installed and used different packages.
     Dependancies to install :
@@ -21,7 +21,7 @@ I have a index.py programs categorized based on environment of study.
         ~ json
         ~ socket
             
-# Do you know Menu Driven Program?.
+### Do you know Menu Driven Program?.
 
     It's a type of computer pogram which accepts the input from the user by showing a list of options and users 
     have to select ant of the options to perform any operation.
@@ -38,7 +38,7 @@ I have a index.py programs categorized based on environment of study.
 
 Here is a brief documentation of each program. A detailed explaination of each.
 
-# Body-Mass-Index:
+### Body-Mass-Index:
     
                  This is a tool used to assess a person's body weight in relation to their height.
                  It is a simple mathematical calculation that provides an estimate of body fat and
@@ -72,10 +72,10 @@ Here is a brief documentation of each program. A detailed explaination of each.
                       status.
     
     
-# Rock, Paper and Scissors.
+### Rock, Paper and Scissors.
      
     
-# Port Scanner:
+### Port Scanner:
     
                A Port Scanner is a software tool or application that is designed to probe a computer system
                or network for open ports. Ports are communication endpoints that applications use to send
