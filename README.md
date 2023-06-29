@@ -3,13 +3,17 @@
 
 
 Hello, Welcome to my space, Am showcasing my personnal python-trials.
-I have used simple, medium and complex programs to sharpen my Python knowledge both in theory and practically.
+I have used simple, medium and complex programs to sharpen my knowledge both in theory and practically.
 
-I have a index.py programs categorized based on environment of study.
+I have a index.py programs categorized based on environment of study and Leetcode-Interview-Questions
+programs that i have talked and modified.
 
-### Leetcode-interview-Questions
-### index.py.
+### 1. Leetcode-interview-Questions
 
+### 2. Index
+
+### index.py 
+    
     Though pip I have installed and used different packages.
     Dependancies to install :
                                 
