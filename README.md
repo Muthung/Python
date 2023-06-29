@@ -72,6 +72,77 @@ Here is a brief documentation of each program. A detailed explaination of each.
     
     
 ### Rock, Paper and Scissors.
+
+     This is a simple program that allows the player to enter their choice (Rock, Paper, Scissors) and 
+     play against the computer, which randomly selects its choice.
+     
+     A function compares the choices and determines the winner based on the game rules.
+     
+     Its run on a Python environment, and it wil keep prompting you for your choice until you type
+     'quit' to exit. After each round, it displays the computer's choice and the result.
+     
+     It can be customized to add more features.
+
+### Web Scarper:
+     
+     This a software ued to extract data from websites, it acesseses web pages, reads their content, and 
+     collects specific information for further analysis and storage.
+     
+     It can be used to gather various data such as product details, prices, reviews, news arrticles, 
+     contact information, and more. It employs different methods and techniquesto extratc data from 
+     websites, such as:
+                       ~ HTML Parsing:
+                                      It uses HTML parsig libraries to navigate through the structure 
+                                      of web pages and extract relevant data by locating specific
+                                      elements based on their HTML tags, classes, or identifiers.
+                                      
+                       ~ Regular Expressions:
+                                             It uses regular expressions to search for patterns within
+                                             the HTML source code and extract desired information, 
+                                             usually used when the daya is not easily accessible using
+                                             parsing methods.
+                                             
+                       ~ API Intergration:
+                                          Some websites provide APIs that allow direct access to their 
+                                          data, it can utilize these APIs to retrieve information in a
+                                          structured manner.
+                       
+                       ~ headless Browsers:
+                                           It can employ headless browsers to interact with web pages 
+                                           just like a regular user, this enables it to handle dynamic
+                                           content, Javascript rendering, and user interactions.
+      
+      It is possible for website administrators to detect and block web scrapers. Common techniques
+      used to detect scrapers are:
+                                  ~ IP Address Monitoring.
+                                  ~ User-Agent Analysis.
+                                  ~ CAPTCHAs and Anti-Scraping Measures.
+      
+      To avoid detection you can employ techniques such as:
+                       
+                      ~ Respect Robot.txt:
+                                          Chek the websites robots.txt file, which specifies the 
+                                          crawling permissions and restrictions. 
+                                          
+                      ~ Limit Requests:
+                                       Control the rate and frequency of your requests to avoid 
+                                       overwhelming the target website, mimic human browsing behaviour
+                                       by adding delays between requests.
+                                       
+                      ~ Use Proxies:
+                                    Rotate your IP Address or use a pool of proxies to distribute the
+                                    the scarping requests among multiple IP addresses.
+                                    
+                      ~ Randomize User-Agent:
+                                             Vary the User-Agent header in your HTTP requests to make it
+                                             harder for websites to identify your scraper, use a 
+                                             diverse set of User-Agent strings to mimic different browsers
+                                             and devices.
+                                             
+                      ~ Session Management:
+                                           Implement session management to handle cookies and session 
+                                           identifiers, to allow the scraper to handle login sessions and 
+                                           maintain ccontinuity between requests.
      
     
 ### Port Scanner:
@@ -89,21 +160,18 @@ Here is a brief documentation of each program. A detailed explaination of each.
      Port Scanners can employ different scanning techniques, such as:
                   
              ~ TCP Connect Scan:
-                        
                                 This scan attempts to complete the TCP three-way handshake with the
                                 target host. If the handshake is successful, the port is considered
                                 open.
                           
-             ~ SYN Scan:
-                         
+             ~ SYN Scan: 
                         It sends a SYN packet (the first step of the TCP handshake) to the target
                         port. If the target responds with a SYN-ACK packet, the port is considered
                         open.
                         This technique is often faster than the TCP Connect Scan. Also known as 
                         half-opening scanning.
                  
-             ~ UDP Scan:
-                         
+             ~ UDP Scan: 
                         The Scanner sends a UDP packet to the target port and analyzes the
                         response. If the port responds positively (e.g with an ICMP message or an
                         application-level response), it is considered open.

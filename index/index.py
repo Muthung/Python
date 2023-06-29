@@ -32,7 +32,7 @@ def myBMI():
             print("\nNB: Congrats Bruv, You are Healthy. Consistency is key.")
         elif(bmi <=30 ):
             print("\nNB: Hahaha !!!, You are extra bruv. I mean Overweight.")
-        else:
+         else:
             print("Woow !!!, You are severly overweight. Start burning cals.")
     else:
         ("Enter valid details")
@@ -134,9 +134,6 @@ def Webscrapper():
 
 ## Port Scanner
 ## I have used 'socket module'
-
-def port_scanner():
-
 
 
 while True:
