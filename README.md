@@ -230,4 +230,11 @@ Here is a brief documentation of each program. A detailed explaination of each.
 Advanced security systems and network administrators with proper monitoring tools can identify and
            block port scanning activities.
            
+#### Support and Contact details
 
+Incase of any issues you can contact me @muthung_ or muthunguclintn@gmail.com
+           
+#### contributions
+
+Contributions are highly welcome. Just clone the repository, checkout a branch, make your changes,
+commit them with a message and create a pull request.
