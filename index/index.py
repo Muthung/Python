@@ -8,6 +8,10 @@ import json
 import random
 import os
 import socket
+import re
+import selenium import webdriver
+import selenium.webdriver.chrome.options import Options
+
 
 ## This is a program for displaying  Body Mass Index
 ## upon User input of Height and Weight
@@ -32,7 +36,7 @@ def myBMI():
             print("\nNB: Congrats Bruv, You are Healthy. Consistency is key.")
         elif(bmi <=30 ):
             print("\nNB: Hahaha !!!, You are extra bruv. I mean Overweight.")
-         else:
+        else:
             print("Woow !!!, You are severly overweight. Start burning cals.")
     else:
         ("Enter valid details")
@@ -91,50 +95,134 @@ def RoPaSc():
 ##
 
 def Webscrapper():
-    # Prompt user for URL to scrape
-    url = input("Enter the URL to scrape: ")
 
-    # Prompt user for types of information to extract
-    info_types = input("Enter the types of information to extract (text, links, images): ").split()
+# Accept user input for domain or IP address
+                 url = input("Enter the domain or IP address: ")
 
-    # Set up rotating user agents
-    user_agents = [
-        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 Edge/16.16299",
-        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Edge/12.246",
-        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.79 Safari/537.36 Edge/14.14393",
-        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36 Edge/15.15063"
-    ]
+                 print("Select a technique:")
+                 print("1. HTML Parsing")
+                 print("2. Regular Expressions")
+                 print("3. Headless Browsers")
+                 technique = input("Enter the technique number: ")
 
-    # Set up headers with a random user agent
-    headers = {'User-Agent': random.choice(user_agents)}
+# The type of data to be extracted
+                 print("Select the type of data to be extracted:")
+                 print("1. Text")
+                 print("2. Links")
+                 print("3. Images")
+                 print("4. Tables")
+                 data_type = input("Enter the data type number: ")
 
-    # Make request to the URL with headers
-    response = requests.get(url, headers=headers)
+# The for techniques to employ
+                 print("Select techniques to employ (maximum 2):")
+                 print("1. Limit Requests (Rate and Frequency)")
+                 print("2. Use of Proxies")
+                 print("3. Randomize User-Agent")
+                 print("4. Session Management")
+                 techniques = input("Enter the technique numbers separated by a comma (e.g., 1,2): ").split(",")
 
-    # Parse HTML content with BeautifulSoup
-    soup = BeautifulSoup(response.content, 'html.parser')
+# Initialize empty dictionary for storing scraped data
+                 scraped_data = {}
 
-    # Extract desired information based on user input
-    data = {}
-    for info_type in info_types:
-        if info_type == "text":
-            data["text"] = soup.get_text()
-        elif info_type == "links":
-            data["links"] = [link.get('href') for link in soup.find_all('a')]
-        elif info_type == "images":
-            data["images"] = [image.get('src') for image in soup.find_all('img')]
-    
-    #Set default path in Documents to save JSON output to
-    default_path=os.path.join(os.path.expanduser('~'), 'Documents', 'web_scraper_output.json')
+# Perform web scraping based on user selections
+                 if technique == '1':
+    # HTML Parsing
+                     if '1' in techniques:
+        # Limit Requests (Rate and Frequency) technique
+                         rate_limit = int(input("Enter the rate limit (in seconds): "))
+                         frequency_limit = int(input("Enter the frequency limit (in requests per minute): "))
+                         time.sleep(rate_limit)
+                         time_elapsed = 0
+                         request_count = 0
+                         start_time = time.time()
 
-    # Output data in JSON format
-    with open(default_path, 'w') as outfile:
-        json.dumps(data, outfile, indent=4)
-        print(f"JSON output saved to {default_path}")
+                         response = requests.get(url)
+                         soup = BeautifulSoup(response.content, 'html.parser')
+                         if data_type == '1':
+        # Extract text
+                             text = soup.get_text()
+                             scraped_data['text'] = text
+                         elif data_type == '2':
+        # Extract links
+                             links = [link.get('href') for link in soup.find_all('a')]
+                             scraped_data['links'] = links
+                         elif data_type == '3':
+        # Extract images
+                             images = [image.get('src') for image in soup.find_all('img')]
+                             scraped_data['images'] = images
+                         elif data_type == '4':
+        # Extract tables
+                             tables = [str(table) for table in soup.find_all('table')]
+                             scraped_data['tables'] = tables
 
-## Port Scanner
-## I have used 'socket module'
+                     elif technique == '2':
+    # Regular Expressions
+                        if '1' in techniques:
+        # Limit Requests (Rate and Frequency) technique
+                            rate_limit = int(input("Enter the rate limit (in seconds): "))
+                            frequency_limit = int(input("Enter the frequency limit (in requests per minute): "))
+                            time.sleep(rate_limit)
+                            time_elapsed = 0
+                            request_count = 0
+                            start_time = time.time()
 
+                        response = requests.get(url)
+                        data = response.text
+                        if data_type == '1':
+        # Extract text
+                            text = re.findall(r'<[^>]*>([^<]+)<[^>]*>', data)
+                            scraped_data['text'] = text
+                        elif data_type == '2':
+        # Extract links
+                            links = re.findall(r'<a\s+href=["\'](.*?)["\']', data)
+                            scraped_data['links'] = links
+                        elif data_type == '3':
+        # Extract images
+                            images = re.findall(r'<img\s+src=["\'](.*?)["\']', data)
+                            scraped_data['images'] = images
+                        elif data_type == '4':
+        # Extract tables
+                            tables = re.findall(r'<table[^>]*>(.*?)</table>', data, re.DOTALL)
+                            scraped_data['tables'] = tables
+
+                     elif technique == '3':
+    # Headless Browsers
+                         if '1' in techniques:
+        # Limit Requests (Rate and Frequency) technique
+                             rate_limit = int(input("Enter the rate limit (in seconds): "))
+                             frequency_limit = int(input("Enter the frequency limit (in requests per minute): "))
+                             time.sleep(rate_limit)
+                             time_elapsed = 0
+                             request_count = 0
+                             start_time = time.time()
+
+                         chrome_options = Options()
+                         chrome_options.add_argument("--headless")
+                         driver = webdriver.Chrome(options=chrome_options)
+                         driver.get(url)
+                         if data_type == '1':
+        # Extract text
+                             text = driver.find_element_by_tag_name('body').text
+                             scraped_data['text'] = text
+                         elif data_type == '2':
+        # Extract links
+                             links = [link.get_attribute('href') for link in driver.find_elements_by_tag_name('a')]
+                             scraped_data['links'] = links
+                         elif data_type == '3':
+        # Extract images
+                             images = [image.get_attribute('src') for image in driver.find_elements_by_tag_name('img')]
+                             scraped_data['images'] = images
+                         elif data_type == '4':
+        # Extract tables
+                             tables = [table.get_attribute('outerHTML') for table in driver.find_elements_by_tag_name('table')]
+                             scraped_data['tables'] = tables
+
+# Save scraped data to a JSON file
+                     with open('scraped_data.json', 'w') as json_file:
+                         json.dump(scraped_data, json_file)
+
+# Print status message
+                     print("Scraping completed. Data saved in 'scraped_data.json' file.")
 
 while True:
     print("\n --------------------------"+
