@@ -15,7 +15,7 @@ do the following things:
 
 #### Custom Judge
 
-the judge will test your solution with the following code.
+The judge will test your solution with the following code.
 
 > int[] nums = [...]; // Input array
 > int val = ...;     // Value to remove
@@ -29,4 +29,4 @@ the judge will test your solution with the following code.
 > assert nums[i] == expectedNums[i];
 > }
 
-if assertions pass, then your solution will be **accepted**.
+If assertions pass, then your solution will be **accepted**.

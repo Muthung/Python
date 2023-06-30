@@ -94,7 +94,7 @@ Here is a brief documentation of each program. A detailed explaination of each.
      collects specific information for further analysis and storage.
      
      It can be used to gather various data such as product details, prices, reviews, news arrticles, 
-     contact information, and more. It employs different methods and techniquesto extratc data from 
+     contact information, and more. It employs different methods and techniques to extratc data from 
      websites, such as:
                        ~ HTML Parsing:
                                       It uses HTML parsig libraries to navigate through the structure 

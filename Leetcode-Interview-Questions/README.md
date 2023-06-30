@@ -8,3 +8,4 @@ Here is a list of Interview Questions I have managed to tackle:
 
 ### 1. Merge Sorted Array
 ### 2. Remove Element
+### 3. Remove Duplicates from Sorted Array

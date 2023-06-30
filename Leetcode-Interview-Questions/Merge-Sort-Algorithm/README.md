@@ -6,7 +6,7 @@ You are given two integer arrays *num1* and *num2*, sorted in **non-decreasing o
 *m* and *n*, representing the number of elements in *num1* and *num2* respectively.
 
 
-**Merge***num1* and *num2* into a single array sorted in **non-descreasing order**.
+Merge *num1* and *num2* into a single array sorted in **non-descreasing order**.
 
 The final sorted array should not be returned by the function, but instead be *stored* inside the array *num1*.
 To accomodate this, *num1* has a length of *m + n*, where the first *m* elements denote the elements that 
