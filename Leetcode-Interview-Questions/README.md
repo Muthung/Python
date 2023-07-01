@@ -7,7 +7,7 @@ Interviews.
 Here is a list of Interview Questions I have managed to tackle:
 
 ### 1. Merge Sorted Array.
-##[Merge-Sorted-algorithm/README.md]
+(Merge-Sorted-algorithm/README.md)
 ### 2. Remove Element.
 ### 3. Remove Duplicates from Sorted Array.
 ### 4. Remove Duplicates from Sorted Array 2.
