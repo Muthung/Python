@@ -1,6 +1,6 @@
 ## Remove Duplicates from Sorted array
 
-### question
+### Question
 
 Given an integer array *nums* sorted in ***non-decreasing order**, remove the duplicates *in-place* such
 that each unique element appears **once**. The **relative order** of the elements should be kept the **same**.
@@ -28,7 +28,7 @@ The judge will test your solution with the following code:
 
 If all assertions pass, then your solution will be **accepted**.
 
-#### implementation
+#### Implementation
 
 Compares each element with its previous element. If they are different, it means it has found a new unique 
 element. It then updates the array by assigning the unique element to the *k* position and increment *k*.
