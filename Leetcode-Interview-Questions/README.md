@@ -12,3 +12,7 @@ Here is a list of Interview Questions I have managed to tackle:
 ### 4. Remove Duplicates from Sorted Array 2.
 ### 5. Majority Element.
 ### 6. Rotate Array.
+### 7. Best Time to Buy and Sell Stock.
+### 8. Best Time to Buy and Sell Stock 2.
+### 9. Jump Game.
+### 10. Jump Game 2.
