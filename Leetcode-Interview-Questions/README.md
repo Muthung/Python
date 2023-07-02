@@ -1,6 +1,6 @@
 ## Leetcode Interview Quetions
 
-I have been practicing Python using Leetcode platform, and found the interview section very educative and 
+I have been practicing Python using Leetcode.com platform, and found the interview section very educative and 
 offers a essentials knowledge that would enhance a programmers' knowledge and skills to help prepare for 
 Interviews.
 
