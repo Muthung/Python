@@ -13,8 +13,6 @@ import re
 
 ## This is a program for displaying  Body Mass Index
 ## upon User input of Height and Weight
-##
-##
 
 def myBMI():
     height=float(input("Enter your Height (cm) : "))
@@ -97,8 +95,6 @@ while True:
           "\n ---------------------")
     print("\n 1. Body Mass Index.")
     print(" 2. Rock, Paper, Scissors.")
-    print(" 3. Web Scrapper.")
-    print(" 4. port_scanner")
     print(" 5. quit")
     choice=int(input("Enter a number (1-10): "))
     
@@ -107,14 +103,8 @@ while True:
         
     elif choice==2:
         RoPaSc()
-    
-    elif choice==3:
-        Webscrapper()
-        
-    elif choice==4:
-        port_scanner()
 
-    elif choice==5:
+    elif choice==3:
         break
     
     else:

@@ -16,3 +16,7 @@ Here is a list of Interview Questions I have managed to tackle:
 ### 8. Best Time to Buy and Sell Stock 2.
 ### 9. Jump Game.
 ### 10. Jump Game 2.
+### 11. H-Index.
+### 12. Insert Delete GetRandom O(1).
+### 13. Product of Array Except Self.
+### 14. Gas Station.
