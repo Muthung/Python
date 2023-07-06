@@ -55,12 +55,6 @@ Here is a brief documentation of each program. A detailed explaination of each.
 
     The user enters text and the app turns it into audio with a click
 
-    Libraries :
-    
-    * tkinter
-    * gTTS
-    * playsound
-
     Steps :
 
     Initialize tkinter windoww and configure the window.

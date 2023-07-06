@@ -17,9 +17,9 @@ programs that i have tackled and modified.
     Through pip I have installed and used different packages.
     Dependancies to install :
                                 
-        ~ os
-        ~ random
-        ~ pyqrcode
+        ~ os                - tkinter
+        ~ random            - gTTS
+        ~ pyqrcode          - playsound
         ~ argparse
         ~ time
         ~ dns.revolver
