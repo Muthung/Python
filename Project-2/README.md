@@ -152,9 +152,8 @@ Advanced security systems and network administrators with proper monitoring tool
            block port scanning activities.
 
 
-# Python Keylogger
+### Python Keylogger
 
-                sudo pip3 install pynput
 
                 nohup python3 keylogger.py & to run without anyone noticing.
 

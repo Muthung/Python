@@ -10,9 +10,9 @@ programs that i have tackled and modified.
 
 ### 1. Leetcode-interview-Questions
 
-### 2. Practice-1
+### 2. Project-1
 
-### 3. Practice-2
+### 3. Project-2
     
     Through pip I have installed and used different packages.
     Dependancies to install :
@@ -25,6 +25,7 @@ programs that i have tackled and modified.
         ~ dns.revolver
         ~ json
         ~ socket
+        - pynput
             
 ### Do you know Menu Driven Program?.
 
@@ -36,10 +37,10 @@ programs that i have tackled and modified.
     
     I have created programs linked together in a Menu Driven Program. The programs are:
     
-       ~ Practice-1:
+       ~ Project-1:
                     This are small projects designed for a beginner in python projects.
 
-       ~ Practice-2:
+       ~ Project-2:
                     This are advanced projects focused on computer networks.
 
            
