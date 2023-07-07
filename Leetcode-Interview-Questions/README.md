@@ -23,3 +23,7 @@ Here is a list of Interview Questions I have managed to tackle:
 ### 15. Roman to Integer.
 ### 16. Integer to Roman.
 ### 17. Length of Last Word.
+### 18. Longest Common Prefix.
+### 19. Reverse Words in a String.
+### 20. ZigZag Conversion.
+### 21. Find the Index of the First Occurence in a String.
