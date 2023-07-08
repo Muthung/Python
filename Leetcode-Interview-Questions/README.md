@@ -6,6 +6,8 @@ Interviews.
 
 Here is a list of Interview Questions I have managed to tackle:
 
+        Array/String
+
 ### 1. Merge Sorted Array.
 ### 2. Remove Element.
 ### 3. Remove Duplicates from Sorted Array.
@@ -27,3 +29,8 @@ Here is a list of Interview Questions I have managed to tackle:
 ### 19. Reverse Words in a String.
 ### 20. ZigZag Conversion.
 ### 21. Find the Index of the First Occurence in a String.
+### 22. Text Justification.
+
+        Two Pointers 
+
+### 
