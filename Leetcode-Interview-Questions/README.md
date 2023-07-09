@@ -8,29 +8,31 @@ Here is a list of Interview Questions I have managed to tackle:
 
         Array/String
 
-### 1. Merge Sorted Array.
-### 2. Remove Element.
-### 3. Remove Duplicates from Sorted Array.
-### 4. Remove Duplicates from Sorted Array 2.
-### 5. Majority Element.
-### 6. Rotate Array.
-### 7. Best Time to Buy and Sell Stock.
-### 8. Best Time to Buy and Sell Stock 2.
-### 9. Jump Game.
-### 10. Jump Game 2.
-### 11. H-Index.
-### 12. Insert Delete GetRandom O(1).
-### 13. Product of Array Except Self.
-### 14. Gas Station.
-### 15. Roman to Integer.
-### 16. Integer to Roman.
-### 17. Length of Last Word.
-### 18. Longest Common Prefix.
-### 19. Reverse Words in a String.
-### 20. ZigZag Conversion.
-### 21. Find the Index of the First Occurence in a String.
-### 22. Text Justification.
+ 01. Merge Sorted Array.
+ 02. Remove Element.
+ 03. Remove Duplicates from Sorted Array.
+ 04. Remove Duplicates from Sorted Array 2.
+ 05. Majority Element.
+ 06. Rotate Array.
+ 07. Best Time to Buy and Sell Stock.
+ 08. Best Time to Buy and Sell Stock 2.
+ 09. Jump Game.
+ 10. Jump Game 2.
+ 11. H-Index.
+ 12. Insert Delete GetRandom O(1).
+ 13. Product of Array Except Self.
+ 14. Gas Station.
+ 15. Candy.
+ 16. Trapping Rain Water.
+ 17. Roman to Integer.
+ 18. Integer to Roman.
+ 19. Length of Last Word.
+ 20. Longest Common Prefix.
+ 21. Reverse Words in a String.
+ 22. ZigZag Conversion.
+ 23. Find the Index of the First Occurence in a String.
+ 24. Text Justification.
 
         Two Pointers 
 
-### 
+ 25. Valid Palindrom.
