@@ -1,4 +1,4 @@
-# CryptoGraph_python
+# CryptoGraph.py
 
 Encrypt and Decrypt files using python
 
