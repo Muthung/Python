@@ -36,3 +36,7 @@ Here is a list of Interview Questions I have managed to tackle:
         Two Pointers 
 
  25. Valid Palindrom.
+ 26. Is Subsequence. 
+ 27. Two Sum II - Input Array is Sorted.
+ 28. Container with Most Water.
+ 29. 3Sum.
