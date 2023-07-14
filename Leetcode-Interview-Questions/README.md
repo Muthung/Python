@@ -40,3 +40,7 @@ Here is a list of Interview Questions I have managed to tackle:
  27. Two Sum II - Input Array is Sorted.
  28. Container with Most Water.
  29. 3Sum.
+ 
+        Sliding Window 
+ 
+ 30. Minimum Size Subarray Sum.
