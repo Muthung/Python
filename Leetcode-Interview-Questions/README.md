@@ -47,3 +47,7 @@ Here is a list of Interview Questions I have managed to tackle:
  31. Longest Substring Without Repeating Characters.
  32. Substring with Concatenation of All Words.
  33. Minimum Window Substring.
+
+        Matrix 
+ 
+ 34. Valid Sudoku.
