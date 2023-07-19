@@ -51,3 +51,5 @@ Here is a list of Interview Questions I have managed to tackle:
         Matrix 
  
  34. Valid Sudoku.
+ 35. Spiral Matrix.
+ 36. 
