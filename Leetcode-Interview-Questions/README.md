@@ -52,4 +52,4 @@ Here is a list of Interview Questions I have managed to tackle:
  
  34. Valid Sudoku.
  35. Spiral Matrix.
- 36. 
+ 36. Rotate Image.
