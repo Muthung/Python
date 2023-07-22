@@ -55,3 +55,7 @@ Here is a list of Interview Questions I have managed to tackle:
  36. Rotate Image.
  37. Set Matrix Zeroes.
  38. Game of Life.
+ 
+        Hashmap
+ 
+ 39. Ransom Note.
