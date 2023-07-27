@@ -61,3 +61,4 @@ Here is a list of Interview Questions I have managed to tackle:
  39. Ransom Note.
  40. Isomorphic Strings.
  41. Word Pattern.
+ 42. Valid Anagram.
