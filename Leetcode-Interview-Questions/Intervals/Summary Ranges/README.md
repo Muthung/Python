@@ -15,3 +15,14 @@ Each range *[a,b]* in the list should be output as:
 
 ### Implementation
 
+Iterate through the sorted array *nums* and construct the ranges based on consecutive numbers. 
+
+Whenever there is a gap between consecutive numbers, create a range from the starting number to the previous number in the sequence. 
+
+If the current number is the last number in the array, create a range from the starting number to the current number.
+
+The function takes the sorted integer array *nums* as input and returns the smallest sorted list of ranges as described in the problem statement. 
+
+The ranges list stores the result, and then adds the ranges in the correct format based on the conditions in the loop. 
+
+Finally, it returns the ranges list as the output.
