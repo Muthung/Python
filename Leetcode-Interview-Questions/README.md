@@ -70,3 +70,4 @@ Here is a list of Interview Questions I have managed to tackle:
 
        Intervals
  48. Summary Ranges.
+ 49. Merge Intervals.
