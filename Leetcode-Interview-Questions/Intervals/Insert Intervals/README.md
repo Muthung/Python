@@ -12,3 +12,8 @@ Return *intervals* after the insertion.
 
 #### Implementation
 
+Iterate through the existing intervals and appropriately merge or insert the new interval.
+
+The function takes the sorted list of intervals and the new interval to be inserted.
+
+It iterates through the intervals, merging overlapping intervals with the new interval, and the returns the merged list of intervals.
