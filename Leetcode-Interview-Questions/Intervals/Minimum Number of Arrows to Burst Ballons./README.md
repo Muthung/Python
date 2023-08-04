@@ -16,3 +16,6 @@ Given the array *points*, return the minimum number of arrows that must be shot 
 
 #### Implementation
 
+It can be solved using a greedy algorithm approach. 
+
+The idea is to sort the balloons based on their ending points and then iterate through them, shooting arrows to burst as many balloons as possible with each shot.
