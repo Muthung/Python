@@ -73,3 +73,6 @@ Here is a list of Interview Questions I have managed to tackle:
  49. Merge Intervals.
  50. Insert Intervals.
  51. Minimum Number of Arrows to Burst Ballons.
+
+       Stack
+ 51. Valid Parentheses.
