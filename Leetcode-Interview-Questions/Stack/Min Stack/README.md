@@ -19,3 +19,7 @@ Implement the *MinStack* class:
 You must implement a solution with *O(1)* time complexity for each function.
 
 #### Implementation
+
+Use a combination of two stacks. 
+
+One stack will store the actual elements, and the other stack will keep track of the minimum element at each step.
