@@ -19,3 +19,23 @@ The canonical path should have the following format:
     The path only contains the directories on the path from the root directory to the target file or directory (i.e., no period *'.'* or double period *'..'*)
 
 Return the simplified canonical path.
+
+#### Implementation
+
+Split the input path by slashes to obtain individual components (directories and file names).
+
+Initialize an empty stack to keep track of the canonical path.
+
+Iterate through each component obtained from step 1.
+
+For each component, handle the following cases:
+
+    a. If it is a single period ('.'), simply skip it as it refers to the current directory.
+
+    b. If it is a double period ('..'), pop the top element from the stack (if the stack is not empty) as it refers to going up one level.
+
+    c. If it is an empty string or contains only slashes, skip it as it represents consecutive slashes.
+
+    d. For any other valid component, push it onto the stack.
+
+After processing all components, construct the simplified canonical path using the elements in the stack.
