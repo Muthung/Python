@@ -77,3 +77,4 @@ Here is a list of Interview Questions I have managed to tackle:
        Stack
  51. Valid Parentheses.
  52. Simplify Path.
+ 53. Min Stack.
