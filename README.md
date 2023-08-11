@@ -1,5 +1,3 @@
-## TITLE:  Clinton Python Projects.
-### AUTHOR: Clinton Muthungu Ndegwa.
 
 
 Hello, Welcome to my space, Am showcasing my personnal python-trials.
@@ -10,11 +8,8 @@ programs that i have tackled and modified.
 
 ### 1. Leetcode-interview-Questions
 
-### 2. Project-1
-
-### 3. Project-2
+### 2. Project
     
-    Through pip I have installed and used different packages.
     Dependancies to install :
                                 
         ~ os                - tkinter
