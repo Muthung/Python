@@ -69,21 +69,25 @@ Here is a list of Interview Questions I have managed to tackle:
  47. Longest Consecutive Sequence.
 
        Intervals
+
  48. Summary Ranges.
  49. Merge Intervals.
  50. Insert Intervals.
  51. Minimum Number of Arrows to Burst Ballons.
 
        Stack
+
  51. Valid Parentheses.
  52. Simplify Path.
  53. Min Stack.
  54. Basic Calculator.
 
         Linked List
+
  55. Linked List Cycle.
  56. Add Two Numbers.
  57. Merge Two Sorted Lists.
  58. Copy List with Random Pointer.
  59. Reverse Linked List II.
+ 60. Reverse Nodes in k-Group.
  
