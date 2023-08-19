@@ -91,3 +91,6 @@ Here is a list of Interview Questions I have managed to tackle:
  59. Reverse Linked List II.
  60. Reverse Nodes in k-Group.
  61. Remove Duplicates from Sorted List II.
+ 62. Rotate List.
+ 63. Partition List.
+ 
