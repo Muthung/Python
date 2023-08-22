@@ -94,3 +94,7 @@ Here is a list of Interview Questions I have managed to tackle:
  62. Rotate List.
  63. Partition List.
  64. LRU Cache !.
+
+        Binary Tree General
+
+ 65. Maximum Depth of Binary Tree.
