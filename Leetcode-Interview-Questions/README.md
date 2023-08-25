@@ -100,3 +100,4 @@ Here is a list of Interview Questions I have managed to tackle:
  65. Maximum Depth of Binary Tree.
  66. Same Tree.
  67. Invert Binary Tree.
+ 68. Symmetric Tree.
