@@ -102,3 +102,4 @@ Here is a list of Interview Questions I have managed to tackle:
  67. Invert Binary Tree.
  68. Symmetric Tree.
  69. Construct Binary Tree from Preorder and Inorder Traversal.
+ 70. Construct Binary Tree from Inorder and Postorder Traversal.
