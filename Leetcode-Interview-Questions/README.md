@@ -104,4 +104,5 @@ Here is a list of Interview Questions I have managed to tackle:
  69. Construct Binary Tree from Preorder and Inorder Traversal.
  70. Construct Binary Tree from Inorder and Postorder Traversal.
  71. Populating Next Right Pointers in Each Node II.
+ 72. Flatten Binary Tree to Linked List.
  
