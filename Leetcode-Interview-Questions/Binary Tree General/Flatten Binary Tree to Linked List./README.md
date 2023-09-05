@@ -10,3 +10,8 @@ Given the *root* of a binary tree, flatten the tree into a "linked list":
 
 #### Implementation
 
+The *flatten* function, recursively flatten the left subtree, make the left subtree the new right subtree of the current node.
+
+Traverse to the end of the new right subtreee, attach the oroginal right subtree to the end of the new right subtree.
+
+Recursively flatten the original right subtree, repreat this process for each node in the tree.
