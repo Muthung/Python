@@ -14,4 +14,4 @@ The *flatten* function, recursively flatten the left subtree, make the left subt
 
 Traverse to the end of the new right subtreee, attach the oroginal right subtree to the end of the new right subtree.
 
-Recursively flatten the original right subtree, repreat this process for each node in the tree.
+Recursively flatten th3e original right subtree, repreat this process for each node in the tree.
