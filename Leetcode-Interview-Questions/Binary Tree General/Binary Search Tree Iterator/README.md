@@ -16,3 +16,8 @@ You may assume that *next()* calls will always be valid. That is, there will be 
 
 #### Implementation
 
+The *BSTIterator* class takes the root of the BST as input during initialization.
+
+Teh *hasNext* method checks whether there are more elements to traverse. It returns *True* if there are elements in the stack(yet to be visited) or if the pointer is not *None*.
+
+The *next* method performs an in-order traversal. It uses a stack to keep track of nodes to visit and a pointe to traverse the tree. It pushes nodes onto the stack as it goes left and returns the values as it pops them off the stack.
