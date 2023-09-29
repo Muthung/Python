@@ -118,3 +118,7 @@ Here is a list of Interview Questions I have managed to tackle:
  78. Average of Levels in Binary Tree.
  79. Binary Tree Level Order Traversal.
  80. Binary Tree Zigzag Level Order Traversal.
+
+        Binary Search Tree
+ 
+ 81. Minimum Absolute Difference in BST.
