@@ -122,3 +122,4 @@ Here is a list of Interview Questions I have managed to tackle:
         Binary Search Tree
  
  81. Minimum Absolute Difference in BST.
+ 82. Kth Smallest Element in a BST.
