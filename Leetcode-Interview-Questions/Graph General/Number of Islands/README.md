@@ -8,3 +8,12 @@ An island is surrounded by water and is formed by connecting adjacent lands hori
 
 #### Implemetation
 
+Use Depth-First Approach (DFS) to traverse the grid and count the number of islands.
+
+*numIslands* fucntion uses a nested *dfs* function to perform a depth-first search approach for each "1" encountered in the grid. 
+
+When it encounters a "1", it marks it as '0' (indicating that it's been vivited) and recursively explores its adjacent cells to mark all connected land as visited.
+
+The outer loop iterates through all grid cells and calls the DFS function whenever a '1' is encountered. 
+
+It returns the count of islands found in the grid.
