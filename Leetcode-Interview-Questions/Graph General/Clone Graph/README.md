@@ -23,3 +23,7 @@ The given node will always be the first node with *val = 1*. You must return the
 
 #### Implementation
 
+The *'cloneGraph'* function begins by handling edge cases and initializing an empty dictionary called *'visited'*.
+
+It then defines an inner *'dfs'* function, which recursively traverses the original graph. During the DFS traversal , it creates a clone of each visited node, populates the clone's neighbors with their respective clones (recursively obtained), and stores the mapping betwween the original and cloned nodes in the *'visited'* dictionary.
+
