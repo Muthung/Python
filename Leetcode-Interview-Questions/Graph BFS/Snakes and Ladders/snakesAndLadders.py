@@ -27,7 +27,7 @@ class Solution():
 
             visited.add(square)
 
-            for next_square in range(square + 1, min(square + 7, target + 1):
+            for next_square in range(square + 1, min(square + 7, target + 1)):
                 next_row, next_col = square_to_row_col(next_square)
                 if board[next_row][next_col] != -1:
                     next_square = board[next_row][next_col]
