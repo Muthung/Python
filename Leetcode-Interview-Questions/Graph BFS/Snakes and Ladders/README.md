@@ -23,3 +23,11 @@ For example, suppose the board is *[[-1,4],[-1,3]]*, and on the first move, your
 Return the least number of moves required to reach the square *n2*. If it is not possible to reach the square, return *-1*.
 
 #### Implementation
+
+Using Breadth-First Search (BFS) algorithm.
+
+It takes int account the unique layout of the board, which follows a Boustrophedon pattern, and considers the presence of snakes and ladders.
+
+The algorithm converts square numbers to row and column coordinates to simulate the player's movement. It maintains a queue of possible moves, exploring them step by step while keeping track of the minimum number of moves required to reach each square.
+
+The process continues until it either reaches the target square (n^2) or determines that it's impossible to reach the last square, returning the minimum number of moves required or -1, respectively.
