@@ -8,3 +8,15 @@ It defines the methods and dat formats that applications can use to request and 
 
 They are essential for building software applications that can leverage the capabilities of other services, access data from remote sources, or integrate with various third-party systems, making them a fundamental building block in modern software development.
 
+#### REST API
+
+**Representational State Transfer** is an API that uses HTTP requests for communication with web services.
+
+It must comply with certain constraints:
+
+1. **Client-server Architecture** - the client is responsible for the user interface, and the server is responsible for thebackend and data storage. Client and server are independent and each of them can be replaced.
+
+2. **Stateless** - no data from th client is stored on the server side. The session state is stored on the client side.
+
+3. **Cacheable** - clients can cache server responses to improve performance.
+
