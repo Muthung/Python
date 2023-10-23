@@ -20,4 +20,6 @@ It must comply with certain constraints:
 
 3. **Cacheable** - clients can cache server responses to improve performance.
 
+
+
 >>> From the python side, the REST API can be viewed as a data source located on an internet address that can be accessed in a certain way through certain libraries.
