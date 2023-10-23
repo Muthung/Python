@@ -1,6 +1,6 @@
 ## Python APIs
 
-#### What is an API?.
+### What is an API?.
 
 **Application Programing Interface**, is a set of rules, protocols, and tools that allows different software aaplications or systems to communicate and interact wih each other.
 
