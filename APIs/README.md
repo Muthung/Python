@@ -33,3 +33,13 @@ It must comply with certain constraints:
 3. **PUT** : Changes existing information in the server.
 
 4. **DELETE** : Deletes existing information from the server.
+
+
+### Working with APIs
+
+In *Python 3*, to connect a library to send HTTP request, use **requests**.
+
+The *request* return a repsonse, a powerful object for inspecting the results of the request. Use *response* to examine the headers and contents of the response, get a dictionary with data from JSON in the response, and also determine how successful access to the server was by the response code.
+
+#### Status Codes
+
