@@ -23,3 +23,13 @@ It must comply with certain constraints:
 
 
 >>> From the python side, the REST API can be viewed as a data source located on an internet address that can be accessed in a certain way through certain libraries.
+
+### Types of Requests
+
+1. **GET** : Retrieve information. This is the most common type of request, it used to get data.
+
+2. **POST** : Adds new data to the server.
+
+3. **PUT** : Changes existing information in the server.
+
+4. **DELETE** : Deletes existing information from the server.
