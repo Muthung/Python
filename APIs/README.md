@@ -74,3 +74,19 @@ The *request* return a repsonse, a powerful object for inspecting the results of
 **500** - Internal Server Error.
 
 - Occurs wwhen an unknown error has occurred on the server.
+
+
+#### Endpoints
+
+API Endpoint is the point of entry in a communication channel when two systems are interacting. The touchpoints of the communication between an API and a server. A URL of a server or service.
+Its the location where the API sends a *request* and where the *respone* eminates.
+
+Endpoint help to depict the exact location of the resources to be accessed by API and ensuring that the software interacting with the API is functioning. The performance and productivity of APIs depend on its ability to interact with the API.
+
+APIs are secured by :
+
+1. Storing passwords using (One Way) or asymmetric encryption algorithms.
+2. Making HTTPS the only option.
+3. Enforcing a limit of the number of requests.
+4. The Oath2 system solid authentication.
+5. Validating user input.
