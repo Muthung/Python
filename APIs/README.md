@@ -43,3 +43,34 @@ The *request* return a repsonse, a powerful object for inspecting the results of
 
 #### Status Codes
 
+**200** - OK.
+
+- The request was successful, the answer itself depends on the method used (GET, POST, PUT, DELETE ) and the API specifications.
+
+**204** - No Content.
+
+- The server successfully processed the request and did not return any content.
+
+**301** - Moved Permanently.
+
+- The server responds that the requested page has been moved to another address and redirects to this address.
+
+**400** - Bad Request.
+
+- The server cannot process the request because of the client-side errors.
+
+**401** - Unauthorized.
+
+- Occurs when authentication was failed, due to incorrect credentials or even its absence.
+
+**403** - Forbidden.
+
+- Access to the specified resource is denied.
+
+**404** - Not Found.
+
+- The requested resource was not found on the server.
+
+**500** - Internal Server Error.
+
+- Occurs wwhen an unknown error has occurred on the server.
