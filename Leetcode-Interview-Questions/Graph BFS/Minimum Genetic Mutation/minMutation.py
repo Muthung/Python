@@ -1,9 +1,11 @@
+from collections import deque
+
 def minMutation(startGene, endGene, bank):
     bank_set = set(bank)
     if endGene not in bank_set:
         return -1
 
-    queue = deque([(startGene, 0])
+    queue = deque([(startGene, 0)])
     visited = set()
 
     while queue:
