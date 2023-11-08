@@ -16,3 +16,20 @@ Note that the starting point is assumed to be valid, so it might not be included
 
 #### Implementation
 
+Create a set *bankSet* to store the valid genes from the *bank* list for efficient lookup.
+
+Initialize a queue for BFS and push the *startGene* into it.
+
+Initialize a variable *mutations* to keep track of the number of mutations needed, initially set to 0.
+
+While the queue is not empty, perform the following steps:
+
+    a. Get the current gene from the front of the queue.
+
+    b. Check if the current gene is equal to endGene. If it is, return the current value of mutations as the minimum number of mutations.
+    
+    c. Otherwise, iterate through all possible mutations of the current gene (changing one character at a time) and check if they are valid (in bank_set) and not visited. If so, add them to the queue and mark them as visited.
+
+    d. Increment mutations by 1 for each level of BFS.
+
+If you exhaust all possibilities and cannot reach *endGene*, return -1, indicating that it's impossible to reach *endGene* from *startGene* using valid mutations.
